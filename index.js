@@ -1,7 +1,7 @@
 #!/usr/bin/env node
-import { spawn } from "child_process";
-import { access, mkdir, stat, writeFile } from "fs/promises";
-import { join } from "path";
+import { spawn } from "node:child_process";
+import { access, mkdir, stat, writeFile } from "node:fs/promises";
+import { join } from "node:path";
 
 // Helper function to check if a path exists
 async function exists(path) {
