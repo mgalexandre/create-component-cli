@@ -1,0 +1,25 @@
+{
+	"name": "next-component-create",
+	"version": "1.0.0",
+	"description": "A CLI tool to create React components for Next.js projects",
+	"main": "index.js",
+	"type": "module",
+	"bin": {
+		"newc": "./index.js"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"nextjs",
+		"react",
+		"component",
+		"cli",
+		"generator"
+	],
+	"author": "",
+	"license": "MIT",
+	"engines": {
+		"node": ">=18.0.0"
+	}
+}
